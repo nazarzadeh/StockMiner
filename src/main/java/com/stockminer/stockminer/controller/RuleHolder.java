@@ -1,0 +1,16 @@
+package com.stockminer.stockminer.controller;
+
+import com.stockminer.stockminer.RuleScript;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class RuleHolder {
+    private List<RuleScript> entryRules;
+    private List<RuleScript> exitRules;
+}
